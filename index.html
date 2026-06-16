@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <meta
+      name="description"
+      content="Francois Marais on X, Rive, and YouTube."
+    />
+    <title>Francois Marais</title>
+    <link
+      rel="preconnect"
+      href="https://www.youtube-nocookie.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://www.youtube.com"
+    />
+    <link
+      rel="stylesheet"
+      href="styles.css"
+    />
+  </head>
+  <body>
+    <canvas
+      id="ambient-canvas"
+      aria-hidden="true"
+    ></canvas>
+    <div
+      class="grain"
+      aria-hidden="true"
+    ></div>
+
+    <main class="site-shell">
+      <section
+        class="hero"
+        aria-labelledby="page-title"
+      >
+        <div class="intro">
+          <p class="kicker">Some Things by</p>
+          <h1 id="page-title">Francois Marais</h1>
+          <p class="lede">
+            Rive experiments, interactive web experiences, and Rive tutorials.
+          </p>
+
+          <nav
+            class="social-links"
+            aria-label="Social links"
+          >
+            <a
+              class="social-card x-card"
+              href="https://x.com/francoisamarais/"
+              rel="me noopener"
+            >
+              <span
+                class="social-icon x-logo"
+                aria-hidden="true"
+              >
+                <img
+                  src="assets/logos/x.svg"
+                  alt=""
+                />
+              </span>
+              <span>
+                <strong>X</strong>
+                <small>@francoisamarais</small>
+              </span>
+            </a>
+
+            <a
+              class="social-card rive-card"
+              href="https://rive.app/@famanza/"
+              rel="me noopener"
+            >
+              <span
+                class="social-icon rive-logo"
+                aria-hidden="true"
+              >
+                <img
+                  src="assets/logos/rive.svg"
+                  alt=""
+                />
+              </span>
+              <span>
+                <strong>Rive</strong>
+                <small>@famanza</small>
+              </span>
+            </a>
+
+            <a
+              class="social-card youtube-card"
+              href="https://www.youtube.com/@FrancoisMarais"
+              rel="me noopener"
+            >
+              <span
+                class="social-icon youtube-logo"
+                aria-hidden="true"
+              >
+                <img
+                  src="assets/logos/youtube.svg"
+                  alt=""
+                />
+              </span>
+              <span>
+                <strong>YouTube</strong>
+                <small>Tutorials</small>
+              </span>
+            </a>
+          </nav>
+        </div>
+
+        <aside
+          class="video-panel"
+          aria-labelledby="video-title"
+        >
+          <div class="panel-heading">
+            <p class="kicker">Latest tutorial</p>
+            <h2 id="video-title">Now on YouTube</h2>
+          </div>
+          <div class="video-frame">
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/15-2CguIkIk?rel=0"
+              title="Latest YouTube tutorial by Francois Marais"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <a
+            class="fallback-link"
+            href="https://youtu.be/15-2CguIkIk?si=f9dEI_ncYgnBAzDm"
+          >
+            Watch on YouTube
+          </a>
+        </aside>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
